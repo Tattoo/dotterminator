@@ -1,0 +1,21 @@
+[global_config]
+  focus = mouse
+[keybindings]
+  toggle_zoom = None
+  copy = <Ctrl>c
+  split_vert = <Ctrl><Shift><Alt>o
+  paste = <Ctrl>v
+  toggle_scrollbar = None
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
