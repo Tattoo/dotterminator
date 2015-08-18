@@ -2,9 +2,9 @@
   focus = mouse
 [keybindings]
   toggle_zoom = None
-  copy = <Ctrl>c
+  copy = <Ctrl><Shift>c
   split_vert = <Ctrl><Shift><Alt>o
-  paste = <Ctrl>v
+  paste = <Ctrl><Shift>v
   toggle_scrollbar = None
 [profiles]
   [[default]]
